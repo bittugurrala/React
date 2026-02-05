@@ -1,0 +1,87 @@
+.Card{
+    height: 265px;
+    width: 250px;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.company-logo{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #dadada;
+    padding: 1px;
+}
+.logo-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.save-button{
+    height: 20px;
+    /* width: 40px;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    /* color: #dadada; */
+    background-color: white;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+    color: #908f8f
+}
+.bookmark{
+    margin-left: 7px;
+    margin-top: 2px;
+}
+.time{
+    font-size: 10px;
+    color: #908f8f;
+    font-weight: normal;
+    margin-left: 8px; 
+}
+.forth-heading{
+    font-weight: 600;
+}
+.third-heading{
+    margin-top: -20px;
+}
+.type-button{
+    padding: 8px 10px 8px 10px;
+    margin-right: 10px;
+    border: 0px;
+    background-color: #e7e6e6;
+    border-radius: 5px; 
+    font-size: 10px;
+    font-weight: bold;
+}
+.type{
+    margin-top: -10px;
+}
+.botton-section{
+    border-top: 2px solid #e7e6e6;
+}
+.location{
+    margin-top: -15px;
+}
+.apply-button{
+    background-color: black;
+    border: 0px;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+}
+.botton-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
